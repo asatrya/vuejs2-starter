@@ -1,6 +1,6 @@
-# vue_install_cli
+# VueJS 2 Boilerplate
 
-> A Vue.js project
+Application boilerplate based on VueJS 2 and Webpack. Dockerized.
 
 ## How to Start
 
@@ -10,8 +10,12 @@ docker build --no-cache -t asatrya/vuejs:2-webpack .
 
 # run container
 docker-compose -f docker-compose.dev.yaml up -d
+```
 
-# get into the container's bash
+Access http://localhost:8080 from your browser.
+
+## Get into the container's bash
+``` bash
 docker exec -it vuejs_webpack sh
 ```
 
@@ -41,5 +45,7 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
+
+## Detailed Explanation
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
