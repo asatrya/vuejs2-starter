@@ -12,7 +12,7 @@ docker build --no-cache -t asatrya/vuejs:2-webpack .
 docker-compose -f docker-compose.dev.yaml up -d
 ```
 
-Access http://localhost:8080 from your browser.
+Access http://localhost:8081 from your browser.
 
 ## Get into the container's bash
 ``` bash
